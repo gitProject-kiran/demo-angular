@@ -1,0 +1,10 @@
+<label>Search: <input ng-model="searchText"></label>
+
+<table id="searchTextResults">
+  <tr><th>Name</th><th>Phone</th></tr>
+  <tr ng-repeat="friend in scotches | filter:searchText">
+    <td>{{friend.name}}</td>
+    <th>
+    <td>{{friend.price}}</td>
+  </tr>
+</table>
