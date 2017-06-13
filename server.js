@@ -1,5 +1,3 @@
-//server file which i have added 
-//new branch added
 var express = require('express');
 
 var server = express();
